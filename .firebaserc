@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "auth-e2801": {
+      "hosting": {
+        "firebase": [
+          "auth-e2801"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "auth-e2801"
+  }
+}

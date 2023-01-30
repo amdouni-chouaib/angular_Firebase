@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+.form-container{
+    display: block;
+    max-width: 500px;
+    margin: auto;
+    background: #eceff1;
+    margin-top: 190px;
+}
+.form-container mat-form-field{
+    width:100%;
+}
+dynamic-view{
+    display:flex;
+    justify-content: center;
+    border: 2 black solid;
+    border-radius: 5px;
+    margin-top: 70px;
+}
